@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+}
+
+#wrapper {
+    width: 1500px;
+    margin: 0 auto;
+}
+
+#header {
+    width: 1100px;
+    height: 250px;
+}
+
+/* mainエリアの3カラム格納の親要素 */
+#colomn-3 {
+    width: 100%;
+    display: flex;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+/* left, middleカラム格納の親要素 */
+#left-2 {
+    float: left;
+    display: flex;
+    width: 80%;
+}
+
+#left-2 #left{
+    background-color: aqua;
+    text-align: center;
+    width: 23%;
+    float: left;
+}
+
+#left-area {
+    padding-top: 100px;
+}
+
+.left-text {
+    display: none;
+    margin-bottom: 100px;
+}
+
+#left-2 #middle{
+    background-color: burlywood;
+    width: 77%;
+    float: right;
+}
+
+table {
+    width: 700px;
+}
+
+table,tbody,th,td {
+    border: 1px solid #bbb
+}
+
+#right {
+    background-color: crimson;
+    text-align: center;
+    width: 20%;
+    float: right;
+}
+
+#right-area {
+    padding-top: 100px;
+}
+
+.right-text {
+    display: none;
+    margin-bottom: 100px;
+}
+
+#middle h1 {
+    text-align: center;
+}
+
+#middle table {
+    margin: 0 auto;
+}
+
+footer {
+  border-top: 1px solid gray;
+  height: 50px;
+  text-align: center;
+}
+
+footer p {
+  font-size: 12px;
+  opacity: 0.5;
+  line-height: 50px;
+}
